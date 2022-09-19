@@ -21,7 +21,7 @@ Features
 ------------
 
 1. Login
-2. PropertyDELETE,GET
+2. Produk DELETE,GET
 
 Documentation
 ------------
