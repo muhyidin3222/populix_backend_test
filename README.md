@@ -30,4 +30,3 @@ Note
 ------------
 1. npx sequelize-cli model:generate --name User --attributes firstName:string (create query for add table in db)
 2. npx sequelize-cli db:migrate (run query)
-4. email use sendinblue
