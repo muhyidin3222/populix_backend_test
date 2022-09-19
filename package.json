@@ -1,0 +1,44 @@
+{
+  "name": "call_pro",
+  "version": "0.0.1",
+  "description": "Call Pro Backend Use Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --ignore session --ignore storages --ignore bin --ignore public",
+    "test": "mocha test/*"
+  },
+  "keywords": [],
+  "author": "https://github.com/muhyidin3222",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.15.2",
+    "config": "^3.3.3",
+    "cors": "^2.8.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.15.1",
+    "fs": "0.0.1-security",
+    "guid": "0.0.12",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.23.0",
+    "moment-timezone": "^0.5.32",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.7.0",
+    "path": "^0.12.7",
+    "random": "^2.2.0",
+    "randomstring": "^1.1.5",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^5.2.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.19.2"
+  }
+}
