@@ -1,4 +1,4 @@
-CALLPRO BACKEND NODEJS
+POPULIX BACKEND NODEJS
 ==============
 
 Setup
@@ -14,6 +14,7 @@ Setup
 8. npx sequelize-cli db:migrate 
 9. npx sequelize-cli db:seed:all
 10. npm start
+11. npm test
 
 
 Features
